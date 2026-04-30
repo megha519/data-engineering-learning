@@ -1,2 +1,1 @@
-# problem 1 : 
-example 
+pivoting
