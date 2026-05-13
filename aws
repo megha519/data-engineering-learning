@@ -1,1 +1,25 @@
+aws services 
+-> compute 
+-> storage
+-> databases
+-> networking and content delivery
+-> security
+-> machine learning and ai
+-> analytics
+-> developer tools
+-> management and governance
+-> migration and transfer
 
+
+interact with aws services
+-> management console
+-> aws cli
+-> cloud shell
+-> sdks
+
+AWS Analytics Services
+-> understand customer behaviour
+-> processing large amount of data 
+-> creating reports and dashboards
+-> real time monitoring
+-> machine learning and business solutions 
