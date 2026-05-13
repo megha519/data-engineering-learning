@@ -1,0 +1,10 @@
+aws athena : AWS service that lets you query and analyze data stored in Amazon S3 using SQL without managing servers.
+    source data
+      |
+    athena sql query
+      |
+    display in athena console
+      |
+    store results in result s3 bucket
+      |
+    optional dashboard / visualization
