@@ -1,4 +1,5 @@
 aws athena : AWS service that lets you query and analyze data stored in Amazon S3 using SQL without managing servers.
+athena do not need searchale structures beforehead
     source data
       |
     athena sql query
@@ -8,3 +9,22 @@ aws athena : AWS service that lets you query and analyze data stored in Amazon S
     store results in result s3 bucket
       |
     optional dashboard / visualization
+
+cloud search : AWS managed search service to search documents and text data using fast indexed search without managing search servers.
+    source data / documents
+          |
+    upload to CloudSearch domain
+    (API / SDK / batch upload)
+          |
+    CloudSearch creates indexes
+    (searchable structures)
+          |
+    user/application sends search query
+          |
+    CloudSearch searches indexes
+          |
+    matching documents returned
+          |
+optional application UI / dashboard
+
+aws data zone : 
