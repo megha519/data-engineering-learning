@@ -27,4 +27,56 @@ cloud search : AWS managed search service to search documents and text data usin
           |
 optional application UI / dashboard
 
-aws data zone : 
+aws data zone : Amazon DataZone is an AWS service that helps organizations centrally manage, discover, share, and govern data across different AWS services and teams. It allows users to easily search for datasets, understand their purpose through metadata and business descriptions, request secure access, and use the data safely for analysis and reporting. It improves collaboration between teams while maintaining proper security and access control.
+    Source Data
+(S3 / Redshift / Databases)
+        |
+        |  Data connected & cataloged
+        v
+AWS DataZone
+        |
+        |  Organize datasets, metadata,
+        |  business glossary, ownership
+        v
+Search & Discover Data
+        |
+        |  Users search datasets
+        v
+Request Access
+        |
+        |  Approval / governance workflow
+        v
+Permissions Granted
+(IAM / Lake Formation)
+        |
+        |  Secure access provided
+        v
+Query & Analyze Data
+(Athena / Redshift / BI Tools)
+        |
+        |  Optional reporting
+        v
+Dashboards / Visualization
+(QuickSight etc.)
+
+amazon emr : to process the data faster
+Amazon FinSpace is an AWS analytics platform that helps financial organizations store, manage, and analyze large amounts of financial data in one place for faster insights and decision-making
+amazon kinesis : real time data processing 
+Amazon Amazon Data Firehose is a service that automatically collects live streaming data and sends it to storage or analytics systems without much manual work
+Amazon Amazon Managed Service for Apache Flink is a cloud service used to process streaming data in real time using Apache Flink, without managing servers manually.
+Amazon Amazon Kinesis Data Streams is a service that collects and stores live streaming data continuously in real time.
+Amazon Amazon Kinesis Video Streams is a service used to collect, store, and process live video streams from cameras and devices.
+Amazon Amazon OpenSearch Service is a cloud service used to store, search, analyze, and visualize large amounts of data quickly.
+Amazon OpenSearch Serverless is a cloud service used to search, analyze, and visualize large amounts of data without managing servers.
+Amazon Redshift is a cloud-based data warehouse service used to store and analyze huge amounts of business data very quickly.
+Amazon Redshift Serverless is a cloud analytics service that helps companies analyze large amounts of data without managing servers or infrastructure.
+Amazon (AWS) is a cloud computing platform that provides services like storage, databases, servers, networking, AI, and analytics over the internet.
+Amazon AWS Clean Rooms is a service that allows different companies to securely analyze data together without directly sharing their original private data.
+Amazon AWS Data Exchange is a service that allows companies to easily buy, sell, and share datasets in the cloud.
+Amazon AWS Data Pipeline is a service used to automatically move and process data between different systems.
+Amazon AWS Entity Resolution is a cloud service that helps companies identify and match records that actually belong to the same person, customer, or business — even when the information looks different.
+Amazon AWS Glue is a service used to collect, clean, transform, and prepare data for analytics and reporting.
+Amazon AWS Lake Formation is a service that helps companies collect, organize, secure, and manage large amounts of data in one central place called a data lake.
+Amazon Amazon Managed Streaming for Apache Kafka (Amazon MSK) is a service used to collect and process large amounts of real-time streaming data using Apache Kafka, without managing the infrastructure manually.
+Application Integration means connecting different applications or systems so they can share data and work together smoothly.
+
